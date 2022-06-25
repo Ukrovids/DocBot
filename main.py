@@ -29,4 +29,4 @@ async def delete(ctx, number: int):
         await each_message.delete()
 
 
-bot.run(os.getenv("TOKEN"))
+bot.run(os.getenv(TOKEN))
